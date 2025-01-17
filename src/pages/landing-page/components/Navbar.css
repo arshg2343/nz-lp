@@ -1,0 +1,75 @@
+/* Custom CSS for Navbar */
+.bootstrap-scope .header {
+	position: relative;
+	z-index: 999;
+	background-color: #2f00c9; /* Set a solid background color for the navbar */
+}
+
+.bootstrap-scope .header-transparent {
+	background-color: #2f00c9; /* Slightly transparent white background */
+}
+
+.bootstrap-scope .sticky-top {
+	position: sticky;
+	top: 0;
+	z-index: 1020;
+}
+
+.bootstrap-scope .navbar {
+	padding: 0.5rem 1rem;
+	background-color: inherit; /* Inherit background color from .header or .header-transparent */
+}
+
+.bootstrap-scope .navbar-brand img {
+	max-height: 50px;
+}
+
+.bootstrap-scope .navbar-brand {
+	margin-right: 0;
+	color: cornsilk;
+}
+
+.bootstrap-scope .navbar-toggler {
+	border: none;
+	background: transparent;
+	color: #ffffff; /* Change toggler icon color to black */
+}
+
+.bootstrap-scope .navbar-toggler i {
+	font-size: 1.5rem;
+}
+
+.bootstrap-scope .navbar-nav {
+	margin-left: auto;
+}
+
+.bootstrap-scope .nav-item {
+	margin: 0 10px;
+}
+
+.bootstrap-scope .nav-link {
+	color: #ffffff; /* Set text color to black */
+	font-weight: 500;
+	text-transform: uppercase;
+}
+
+.bootstrap-scope .nav-link:hover {
+	color: #ef3139; /* Hover color for links */
+}
+
+.bootstrap-scope .dropdown:hover .dropdown-menu {
+	background-color: #fff; /* Dropdown background color */
+	border: none;
+	box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+	display: block;
+}
+
+.bootstrap-scope .dropdown-item {
+	color: #000; /* Dropdown item text color */
+	font-weight: 500;
+}
+
+.bootstrap-scope .dropdown-item:hover {
+	background-color: #ef3139; /* Hover background color for dropdown items */
+	color: #fff; /* Hover text color for dropdown items */
+}

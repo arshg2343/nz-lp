@@ -1,0 +1,71 @@
+/* Footer Container */
+.footer {
+	background-color: #000;
+	color: #fff;
+	padding: 4rem 0 2rem;
+}
+
+/* Container for content */
+.container {
+	max-width: 1140px;
+	margin: 0 auto;
+	padding: 0 15px;
+}
+
+/* Flexbox row for columns */
+.row {
+	display: flex;
+	flex-wrap: wrap;
+	margin: 0 -15px;
+}
+
+/* Individual columns */
+.column {
+	flex: 0 0 33.333333%;
+	max-width: 33.333333%;
+	padding: 0 15px;
+	margin-bottom: 1.5rem;
+}
+
+/* Headings */
+.column h5 {
+	color: #6c757d;
+	margin-bottom: 1.5rem;
+}
+
+/* Paragraphs */
+.column p {
+	color: #fff;
+	margin-bottom: 0.5rem;
+}
+
+/* Icons */
+.column i {
+	color: #6c757d;
+	margin-right: 0.5rem;
+}
+
+/* Links section */
+.links {
+	display: flex;
+	flex-wrap: wrap;
+	margin: 0 -15px;
+}
+
+.links p {
+	flex: 0 0 33.333333%;
+	max-width: 33.333333%;
+	padding: 0 15px;
+	margin-bottom: 0.5rem;
+}
+
+/* Copyright section */
+.copyright {
+	text-align: center;
+	margin-top: 1.5rem;
+}
+
+.copyright p {
+	color: #fff;
+	margin-bottom: 0;
+}

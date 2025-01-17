@@ -1,0 +1,54 @@
+/* Hero Section Styles */
+.banner {
+	position: relative;
+	overflow: hidden;
+}
+
+.swiper {
+	width: 100%;
+	height: 89.5vh; /* Set default height to full viewport height */
+}
+
+.swiper-slide {
+	background-size: cover;
+	background-position: center;
+}
+
+/* Responsive Heights */
+.h-800 {
+	height: 800px;
+}
+
+.h-md-500 {
+	height: 500px;
+}
+
+.h-lg-600 {
+	height: 600px;
+}
+
+.h-sm-250 {
+	height: 250px;
+}
+
+/* Swiper Pagination Dots */
+.swiper-pagination {
+	position: absolute;
+	bottom: 20px;
+	left: 50%;
+	transform: translateX(-50%);
+	z-index: 10;
+}
+
+.swiper-pagination-bullet {
+	width: 10px;
+	height: 10px;
+	background-color: rgba(255, 255, 255, 0.5);
+	opacity: 1;
+	margin: 0 5px;
+	transition: background-color 0.3s ease;
+}
+
+.swiper-pagination-bullet-active {
+	background-color: #fff;
+}
