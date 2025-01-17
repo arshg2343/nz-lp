@@ -3,7 +3,7 @@ import { CheckCircle } from "lucide-react";
 
 const About = () => {
 	return (
-		<section className="py-5 bg-light">
+		<section className="py-5" style={{ backgroundColor: "#eef6ff" }}>
 			<div className="container max-w-7xl">
 				<div className="row align-items-center g-4">
 					{/* Left Column: Text Content */}

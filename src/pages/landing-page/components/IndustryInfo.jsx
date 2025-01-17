@@ -119,7 +119,7 @@ const IndustryInfo = () => {
 	return (
 		<section
 			className="industries-section space-ptb"
-			style={{ backgroundImage: "url(images/bg/industries-bg-home.jpg)" }}
+			style={{ backgroundColor: "#eef6ff" }}
 		>
 			<div className="container">
 				<div className="row justify-content-center">
