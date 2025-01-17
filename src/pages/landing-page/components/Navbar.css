@@ -50,7 +50,6 @@
 .bootstrap-scope .nav-link {
 	color: #ffffff; /* Set text color to black */
 	font-weight: 500;
-	text-transform: uppercase;
 }
 
 .bootstrap-scope .nav-link:hover {
