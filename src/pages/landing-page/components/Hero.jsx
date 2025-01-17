@@ -46,13 +46,6 @@ const Hero = () => {
 							}}
 						></div>
 					))}
-					<div
-						className="swiper-slide"
-						style={{
-							backgroundImage:
-								"url('/pexels-pixabay-358220.jpg')",
-						}}
-					></div>
 				</div>
 
 				<div className="swiper-pagination"></div>
